@@ -1,24 +1,14 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, ViewChild } from "@angular/core";
+import { Wizard } from "clarity-angular/wizard/wizard";
+
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './wizard.component.html',
+  styleUrls: ['./wizard.component.css']
 })
 
-
-export class AppComponent {
-
-  constructor(private router: Router) { }
-}
-
-
-
-
-/*
-export class WizardAsyncValidation {
+export class WizardComponent {
     @ViewChild("wizard") wizard: Wizard;
     @ViewChild("myForm") formData: any;
 
@@ -46,4 +36,4 @@ export class WizardAsyncValidation {
             this.loadingFlag = false;
         }, 1000);
     }
-}*/
+}

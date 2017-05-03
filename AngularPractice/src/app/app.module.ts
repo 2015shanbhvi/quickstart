@@ -4,14 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
+import { WizardComponent } from './wizard/wizard.component';
+
+//try to get routing when clicking on open button
+//to open the wizard
+import { RouterModule } from '@angular/router';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ContactComponent,
-
+    WizardComponent,
   ],
   imports: [
     BrowserModule,
