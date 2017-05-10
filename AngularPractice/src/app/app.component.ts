@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, ViewChild } from '@angular/core';
+
+//import {Wizard} from "clarity-angular/wizard";
+//old version//import {WizardDeprecated} from "clarity-angular/wizard-deprecated";
 
 
 @Component({
@@ -11,7 +13,9 @@ import { Router } from '@angular/router';
 
 export class AppComponent {
 
-  constructor(private router: Router) { }
+//  @ViewChild("wizardmd") wizardMedium: Wizard;
+
+//  constructor(private router: Router) { }
 }
 
 
