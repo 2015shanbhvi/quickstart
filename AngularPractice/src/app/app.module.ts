@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { QuestionComponent } from './question/question.component';
 import { RouterModule } from '@angular/router';
 import {ROUTING} from './app.routing';
+import { Question2Component } from './question2/question2.component';
 
 //try to get routing when clicking on open button
 //to open the wizard
@@ -19,7 +20,8 @@ import {ROUTING} from './app.routing';
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionComponent
+    QuestionComponent,
+    Question2Component
   //  WizardComponent,
   ],
   imports: [
