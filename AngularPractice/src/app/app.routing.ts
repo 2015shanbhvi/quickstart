@@ -10,6 +10,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './question/question.component';
 import { Question2Component } from './question2/question2.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 
 
@@ -20,6 +21,7 @@ export const ROUTES: Routes = [
     { path: 'App', component: AppComponent },
     { path: 'question', component: QuestionComponent },
     { path: 'question2', component: Question2Component },
+    { path: 'subscription', component: SubscriptionComponent },
 
 
     // otherwise redirect to home
