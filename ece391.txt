@@ -1,4 +1,4 @@
 testing1
 git bash: 
 checkout two copies of repository by [git clone URL name]
-
+git reset test
